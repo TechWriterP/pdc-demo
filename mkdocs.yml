@@ -1,0 +1,80 @@
+site_name: Pentaho Data Catalog
+site_url: https://sitename.example
+nav:
+  - Overview: index.md
+  - Release Notes:
+    - Overview: release-notes/overview.md
+    - What's new in Data Catalog 10.2: release-notes/whats-new.md
+  - Getting started:
+    - Install: 
+      - Requirements: install/requirements.md
+      - Install Pentaho Data Catalog: install/install-pdc.md
+      - Hyperscalers: install/hyperscalers.md
+      - Get started with Pentaho Data Catalog: install/get-started.md
+  - Use:
+    - Data Catalog user features: use/pdc-user-features.md
+  - Administration:
+    - Manage Prentaho Data Catalog: admin/manage-pdc.md
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/Hitachi_Symbol.svg
+  favicon: assets/Hitachi_Symbol.svg
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - content.code.copy
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: red
+      accent: red
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: red
+      accent: blue
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  
+extra:
+  social:
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/company/pentaho/
+    - icon: simple/facebook
+      link: https://www.facebook.com/pentaho
+    - icon: simple/x
+      link: https://x.com/Pentaho
+    - icon: simple/youtube
+      link: https://www.youtube.com/@Pentaho-Plus
+
+copyright: Copyright &copy; 2025 Hitachi Vantara, LLC. All rights reserved.
