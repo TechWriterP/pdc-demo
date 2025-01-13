@@ -5,7 +5,7 @@ nav:
   - Release Notes:
     - Overview: release-notes/overview.md
     - What's new in Data Catalog 10.2: release-notes/whats-new.md
-  - Getting started:
+  - Getting Started:
     - Install: 
       - Requirements: install/requirements.md
       - Install Pentaho Data Catalog: install/install-pdc.md
