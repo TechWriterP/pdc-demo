@@ -15,13 +15,13 @@ Data Catalog's interactive user interface provides a customized user experience 
 Data Catalog gives users access to the file and field-level metadata available for the entire catalog of data assets. In addition, for the assets that each user has authorization to view, the Data Catalog displays a rich view of data-based details such as minimum, maximum, and most frequent values. Data Catalog users can add their own information to the catalog in the form of descriptions and custom metadata designed for their organization.
 Use the Data Canvas to explore and investigate your data. Here, you can find detailed insights into resource metadata to help you understand and clarify practical applications.
 
-![Data Canvas](/img/prod-overview/data-canvas.png)
+![Data Canvas](img/data-canvas.png)
 
 ### Galaxy view
 
 In Data Catalog, you can use the Galaxy view feature to quickly view the structure of your data and its details. Galaxy view is especially useful when you want to view information that is not easily visualized using the navigation tree in the Data Canvas.
 
-![Galaxy View](/img/prod-overview/galaxy-view.png)
+![Galaxy View](img/galaxy-view.png)
 
 In business glossary, you can use the Galaxy view feature to visualize and explore business terms and their relationships and to understand how terms are interconnected. You can also quickly identify related terms, synonyms, and hierarchies within specific domains or categories, enhancing their understanding of the glossary's structure.
 
@@ -39,7 +39,7 @@ Assigning roles to Data Catalog users lets administrators exercise role-based fu
 
 The following diagram provides an overview of Data Catalog's architectural components across the distributed application.
 
-![Diagram of PDC Architecture](/img/prod-overview/pdc-architecture.png)
+![Diagram of PDC Architecture](img/pdc-architecture.png)
 
 ### Pentaho Data Storage Optimizer
 
